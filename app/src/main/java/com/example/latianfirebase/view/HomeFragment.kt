@@ -49,5 +49,6 @@ class HomeFragment : Fragment() {
                 // Handle database error
             }
         })
+
+        }
     }
-}

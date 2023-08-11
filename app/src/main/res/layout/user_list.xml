@@ -24,6 +24,25 @@
             android:layout_marginStart="12dp"
             android:text="Nama : Yuda Rinaldi"
             />
+        <ImageButton
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/baseline_edit_24"
+            android:backgroundTint="#0095F6"
+            />
+
+        <ImageButton
+            android:id="@+id/btnDellete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/btnEdit"
+            android:src="@drawable/baseline_delete_24"
+            android:backgroundTint="#C2492D"
+
+            />
         <TextView
             android:id="@+id/txtNim"
             android:layout_below="@id/txtNama"
@@ -44,7 +63,7 @@
             android:textStyle="bold"
             android:textColor="@color/black"
             android:layout_marginStart="12dp"
-            android:text="Telepon : 081234567890"
+            android:text="Telepon : 085156437837"
             />
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
